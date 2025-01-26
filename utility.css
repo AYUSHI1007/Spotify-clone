@@ -1,0 +1,47 @@
+.border{
+    /* border: 2px solid red;
+    margin: 2px; */
+    border-radius: 8px;
+    margin: 5px;
+}
+.flex{
+    display: flex;
+    margin: 1px;
+    justify-content: space-between;
+}
+.s{
+    background-color:#e0e0e0;
+    border-radius: 25px;
+    filter: invert(1);
+}
+.justify-content{
+    padding: 9px;
+    background-color:#e0e0e0;
+    border-radius: 25px;
+    filter: invert(1);
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.bg-grey2{
+    background-color: #1f1f1f;
+}
+.gap{
+    gap: 12px;
+}
+.padding{
+    padding: 5px 0px 5px 0px;
+}
+.pad{
+    padding:0px 0px ;
+}
+.padding1{
+    padding: 5px;
+}

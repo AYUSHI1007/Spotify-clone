@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Londrina+Shadow&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root{
+    --a:0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.left {
+  width: 30vw;
+  position: relative;
+  height: 480px;
+}
+.right {
+  width: 80vw;
+  position: relative;
+  overflow: auto;
+  max-height: 486px;
+}
+.left img {
+  height: 30px;
+  width: 30px;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+.heading ul li {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  gap: 14px;
+}
+.playlist {
+  padding: 15px;
+  border-radius: 8px;
+  margin: 25px 10px;
+  position: relative;
+}
+p,
+h3 {
+  font-family: "Poppins", sans-serif;
+  margin: 12px;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+}
+.foot {
+  padding: 0px;
+  color: white;
+  gap: 5px;
+
+  left: 9px;
+  width: 265px;
+
+  height: 63px;
+  position: absolute;
+  bottom: 0px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 10px;
+}
+.search {
+  width: 400px;
+  border-radius: 20px;
+  background-color: #1f1f1f;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+input {
+  border-radius: 20px;
+  background-color: #1f1f1f;
+  font-size: 18px;
+  box-shadow: #e0e0e0;
+  outline: none;
+}
+.search input {
+  flex: 1;
+  outline: none;
+}
+.spotifyPlaylist > * {
+  padding: 9px;
+  margin: 0px;
+}
+.card img {
+  border-radius: 92px;
+  height: 175px;
+  width: 175px;
+  padding: 5px;
+}
+.card {
+  width: 185px;
+  height: 249px;
+  position: relative;
+}
+.card p,
+h2 {
+  padding: 0px 8px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+.spotifyPlaylist h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.play {
+  position: absolute;
+  right: 19px;
+  z-index: 10;
+  bottom: 92px;
+  opacity: var(--a);
+}
+.sign {
+  display: flex;
+}
+.signup {
+  background-color: black;
+  color: grey;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  height: 48px;
+  width: 100px;
+}
+.signup:hover {
+  color: white;
+}
+.login:hover {
+  padding: 3px 17px;
+  font-size: 15px;
+}
+.login {
+  padding: 1px 16px;
+  font-size: 13px;
+}
+nav {
+  height: 54px;
+  width: 100%;
+}
+.playbar {
+  height: 55px;
+  background-color: rgb(23, 91, 49);
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  right: 2px;
+  width:845px;
+  cursor: pointer;
+  z-index: 1;
+}
+.playbutton {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 7px;
+}
+.song {
+  height: 344px;
+  overflow: auto;
+}
+.song ul li {
+  font-size: 10px;
+  list-style-type: none;
+  padding: 5px;
+}
+.song img {
+  filter: invert(1);
+  height: 25px;
+  width: 25px;
+}
+.song ul {
+  padding: 5px;
+}
+.shubh {
+  gap: 12px;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 9px;
+  justify-content: space-around;
+}
+.line {
+  background-color: white;
+  height: 4px;
+  position: relative;
+  top: -4px;
+}
+/* .playbutton {
+  padding: 9px 65px 10px 2px;
+} */
+.close {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+.container{
+    display: flex;
+    /* width: 274px; */
+}
+
+.circle {
+  background-color: white;
+  height: 9px;
+  width: 9px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: -2px;
+  transition: left 0.5s;
+  left: 0%;
+ 
+}
+.card:hover{
+    background-color: #333030;
+    --a:1;
+}
+
+/* Apply to the entire website */
+body {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #444 #222; /* Thumb color and track color for Firefox */
+}
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+body::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+  height: 8px; /* Scrollbar height (for horizontal scrollbars) */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #444; /* Color of the scroll thumb */
+  border-radius: 4px; /* Rounded corners */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
+
+body::-webkit-scrollbar-track {
+  background: #222; /* Scrollbar track color */
+  border-radius: 4px; /* Optional: rounded corners for the track */
+}
+
+body::-webkit-scrollbar-track:hover {
+  background: #333; /* Track color on hover */
+}
+
+.playbutton img {
+  cursor: pointer;
+}
+.songinfo{
+    width: 100px;
+    font-size: 12px;
+}
+.songtime {
+  font-size: 12px;
+  padding: 0px 3px 0px 0px;
+}
+
+@media (max-width: 980px) {
+  .left,
+  .nav {
+    color: white;
+    position: absolute;
+    left: -308px;
+    transition: all 0.3s;
+    z-index: 1;
+    width: 306px;
+  }
+  .right {
+    width: 100%;
+  }
+  .hamburger {
+    display: block;
+  }
+  /* .home{
+    display: block;
+  } */
+  .play {
+    z-index: 0;
+  }
+  .left .close {
+    position: absolute;
+    right: 31px;
+  }
+  .close {
+    display: block;
+  }
+  .playbar{
+    width:100%;
+  }
+}
+@media (max-width: 300px) {
+    .container{
+        width: 274px;
+    }
+    .playbar{
+        width:100%;
+    }
+    /* .home{
+      display: none;
+    } */
+    .nav{
+      width: 100%;
+    }
+}
+@media (max-width: 180px) { 
+    .playbar{
+        width:100%;
+    }
+    .left{
+        width: 10px;
+    }
+    .nav{
+      width: 271px;
+    }
+    
+}
+@media (max-width: 192px) { 
+  .playbar{
+      width:100%;
+  }
+  .left{
+      width: 260px;
+  }
+  .nav{
+    width: 300px;
+  }
+  
+}
